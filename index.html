@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" style="background-color: #aeb875" ;>
+        <div class="container-fluid">
+            <img src="https://play-lh.googleusercontent.com/_7Bzf9IOPfFHb8NB_9pxHoWt_kc01BBeeBzwJIs-RaiRm5yGOcsed5M4t2w4fU4W46gY"
+                alt="" style="width: 70px; height: 60px";>
+            <a class="navbar-brand" href="#">Body Mass Index Calculator</a>
+        </div>
+    </nav>
+
+    <!--LOGIN -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="https://i.pinimg.com/564x/2a/4a/d0/2a4ad0eeab6195b4477472c48bab5f63.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="card mt-5" style="width: 30rem;">
+                           
+                                <div class="mb-3 p-4">
+                                    <label for="email" class="form-label">Username</label>
+                                    <input type="email" class="form-control" id="email"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3  p-4">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <button type="submit" class="btn btn-primary m-4" onclick="login()">LOGIN</button>
+                          
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+        <!-- FACTS -->
+
+        <div class="row">
+            <h1 class="text-center" style="color:#616c22 ;">Some Facts on BMI</h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            BMI Fact Check -1 
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Body Mass Index (BMI) is a widely used tool for assessing weight status. It is a simple
+                            calculation based on height and weight, providing a general estimate of body fat. However,
+                            it's essential to understand that BMI is not a definitive measure of health. While it can be
+                            a useful indicator, it doesn't account for factors like muscle mass, bone density, or
+                            overall body composition. Athletes, for instance, might have a high BMI due to muscle rather
+                            than fat.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            BMI Fact Check - 2
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            BMI is associated with certain health risks. Higher BMI levels are linked to an increased
+                            risk of chronic diseases such as heart disease, stroke, type 2 diabetes, and some types of
+                            cancer. However, it's crucial to remember that correlation doesn't equal causation. Other
+                            lifestyle factors like diet, physical activity, and genetics also play significant roles in
+                            developing these health conditions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            BMI Fact Check - 3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Given its limitations, it's recommended to use BMI as one tool among many for assessing
+                            health. Other factors such as waist circumference, body fat percentage, and blood pressure
+                            should be considered for a more comprehensive evaluation. Ultimately, focusing on overall
+                            health and well-being, including regular exercise, a balanced diet, and adequate sleep, is
+                            more important than fixating on a single number like BMI
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- FOOTER -->
+
+        
+            <footer style="background-color: #aeb875;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 mt-5 ">
+                            <ul style="list-style-type: none;">
+                                <li><a href="" style="text-decoration: none; color:black; font-size :20px;">Know More</a></li>
+                                <li><a href=""style="text-decoration: none; color:black;font-size :20px;">BMI</a></li>
+                                <li><a href=""style="text-decoration: none; color:black;font-size :20px;">Consult a doctor</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4 mt-5 ">
+                            <ul style="list-style-type: none;">
+                                <li><a href="" style="text-decoration: none; color:black; font-size :20px;">Join our Team</a></li>
+                                <li><a href=""style="text-decoration: none; color:black;font-size :20px;">Excercises</a></li>
+                                <li><a href=""style="text-decoration: none; color:black;font-size :20px;">Yoga Class</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4 mt-5 ">
+                            <ul style="list-style-type: none;">
+                                <li><a href="" style="text-decoration: none; color:black; font-size :20px;">Know More</a></li>
+                                <li><a href=""style="text-decoration: none; color:black;font-size :20px;">BMI</a></li>
+                                <li><a href=""style="text-decoration: none; color:black;font-size :20px;">Consult a doctor</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+            </footer>
+       
+        
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <script>
+        const login=()=>{
+            const uname=email.value
+            const pswd = password.value
+
+            if(uname&&pswd){
+                localStorage.setItem("uname",uname)
+                localStorage.setItem("pswd",pswd)
+
+                window.location="bmi.html"
+
+        }
+        else{
+            alert("Please enter email and password");
+        }
+
+        }
+    </script>
+
+</html>
